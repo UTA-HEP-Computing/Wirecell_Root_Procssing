@@ -103,7 +103,7 @@ class SparseTensorDataSet:
 
         return a
 
-    def Writeh5(self, h5file, name, range=[]):
+    def Writeh5(self, h5file, name, tmp_range=[]):
         root = h5file.create_group("/", name, name)
         FILTERS = Filters(complib='zlib', complevel=5)
 
@@ -115,9 +115,9 @@ class SparseTensorDataSet:
         h5file.create_array(root, "shape", self.shape)
         h5file.create_array(root, "unbinned", [int(self.unbinned)])
 
-        if len(range) > 0:
-            Start = range[0]
-            Stop = range[1]
+        if len(tmp_range) > 0:
+            Start = tmp_range[0]
+            Stop = tmp_range[1]
         else:
             Start = 0
             Stop = len(self.C)
