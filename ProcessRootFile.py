@@ -10,8 +10,8 @@ import glob
 
 from scipy import misc as m
 from WireDataUtils import *
-# from subprocess import call
-# import multiprocessing
+from subprocess import call
+import multiprocessing
 
 
 def preprocess(X):

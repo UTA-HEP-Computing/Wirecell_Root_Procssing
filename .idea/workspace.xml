@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="005be130-cf64-498d-bb90-383df03e2d87" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Wirecell_Root_Procssing.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProcessRootFile.py" afterPath="$PROJECT_DIR$/ProcessRootFile.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProcessRootFile_WireCell.py" afterPath="$PROJECT_DIR$/ProcessRootFile_WireCell.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProcessWireCell.py" afterPath="$PROJECT_DIR$/ProcessWireCell.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SparseNDArray.py" afterPath="$PROJECT_DIR$/SparseNDArray.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SparseTensorDataSet.py" afterPath="$PROJECT_DIR$/SparseTensorDataSet.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WireDataUtils.py" afterPath="$PROJECT_DIR$/WireDataUtils.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,8 +22,8 @@
       <file leaf-file-name="ProcessRootFile.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProcessRootFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="655">
+              <caret line="148" column="3" lean-forward="false" selection-start-line="148" selection-start-column="3" selection-end-line="148" selection-end-column="3" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -44,8 +34,8 @@
       <file leaf-file-name="ProcessRootFile_WireCell.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ProcessRootFile_WireCell.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="-155">
+              <caret line="143" column="11" lean-forward="false" selection-start-line="143" selection-start-column="7" selection-end-line="143" selection-end-column="11" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -120,12 +110,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ProcessRootFile.py" />
         <option value="$PROJECT_DIR$/WireDataUtils.py" />
         <option value="$PROJECT_DIR$/SparseNDArray.py" />
         <option value="$PROJECT_DIR$/SparseTensorDataSet.py" />
         <option value="$PROJECT_DIR$/ProcessWireCell.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/ProcessRootFile.py" />
         <option value="$PROJECT_DIR$/ProcessRootFile_WireCell.py" />
       </list>
     </option>
@@ -453,16 +443,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ProcessRootFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WireDataUtils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -512,10 +492,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ProcessRootFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="148" column="3" lean-forward="false" selection-start-line="148" selection-start-column="3" selection-end-line="148" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ProcessRootFile_WireCell.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="-155">
+          <caret line="143" column="11" lean-forward="false" selection-start-line="143" selection-start-column="7" selection-end-line="143" selection-end-column="11" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>

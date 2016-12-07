@@ -14,8 +14,8 @@ from SparseTensorDataSet import *
 
 from scipy import misc as m
 from WireDataUtils import *
-from subprocess import call
-import multiprocessing
+# from subprocess import call
+# import multiprocessing
 
 
 def preprocess(X):
@@ -147,8 +147,8 @@ if len(sys.argv) > 4:
 print("NEvents per file: ", NEvents)
 print("Offset: ", Offset)
 
-files = glob.glob(InputDir + '/*/*/wire_dump*.root')
-print('Found %d files.' % len(files))
+# files = glob.glob(InputDir + '/*/*/wire_dump*.root')
+# print('Found %d files.' % len(files))
 
 
 def wrapper(filename):
@@ -173,6 +173,7 @@ def wrapper(filename):
     print("Done.")
     return
 
+wrapper(InputDir)
 
 """
 num_threads=20
